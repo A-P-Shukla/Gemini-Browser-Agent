@@ -84,6 +84,8 @@ The agent features enhanced prompting, configurability for downloads and recordi
         # LANGCHAIN_ENDPOINT="https://your-langsmith-endpoint" # Optional, for self-hosted
         ```
 ## Command-Line Options
+
+```text
 usage: gemini_browser.py [-h] [--query QUERY] [--url URL] [--model MODEL] [--planner-model PLANNER_MODEL] [--headless] [--recording-dir RECORDING_DIR]
                          [--download-dir DOWNLOAD_DIR] [--persona PERSONA] [--system-prompt-file SYSTEM_PROMPT_FILE]
                          [--recovery-prompt-file RECOVERY_PROMPT_FILE] [--max-failures MAX_FAILURES] [--planner-interval PLANNER_INTERVAL] [--debug]
