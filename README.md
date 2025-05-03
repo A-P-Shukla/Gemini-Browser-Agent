@@ -83,6 +83,37 @@ The agent features enhanced prompting, configurability for downloads and recordi
         LANGCHAIN_PROJECT="Your Project Name" # Optional, defaults to 'Default Gemini Browser Agent'
         # LANGCHAIN_ENDPOINT="https://your-langsmith-endpoint" # Optional, for self-hosted
         ```
+## Command-Line Options
+usage: gemini_browser.py [-h] [--query QUERY] [--url URL] [--model MODEL] [--planner-model PLANNER_MODEL] [--headless] [--recording-dir RECORDING_DIR]
+                         [--download-dir DOWNLOAD_DIR] [--persona PERSONA] [--system-prompt-file SYSTEM_PROMPT_FILE]
+                         [--recovery-prompt-file RECOVERY_PROMPT_FILE] [--max-failures MAX_FAILURES] [--planner-interval PLANNER_INTERVAL] [--debug]
+                         [--langchain-debug]
+
+Run Advanced Gemini agent with browser interaction using browser_use.
+
+options:
+  -h, --help            show this help message and exit
+  --query QUERY         Run a single query and exit. (default: None)
+  --url URL             Starting URL. If not provided, defaults to https://www.google.com for the first query. (default: None)
+  --model MODEL         Gemini model for main tasks. (default: gemini-1.5-flash-latest)
+  --planner-model PLANNER_MODEL
+                        Gemini model for planning (defaults to main model). (default: None)
+  --headless            Run browser in headless mode. (default: False)
+  --recording-dir RECORDING_DIR
+                        Directory to save session recordings (GIFs). If unset, recordings are disabled. (default: None)
+  --download-dir DOWNLOAD_DIR
+                        Directory to save downloaded files. (default: ./downloads)
+  --persona PERSONA     Optional persona for the agent. (default: None)
+  --system-prompt-file SYSTEM_PROMPT_FILE
+                        Path to file containing custom system prompt additions. (default: None)
+  --recovery-prompt-file RECOVERY_PROMPT_FILE
+                        Path to file containing custom failure recovery prompt. (default: None)
+  --max-failures MAX_FAILURES
+                        Max consecutive failures. (default: 5)
+  --planner-interval PLANNER_INTERVAL
+                        Run planner every N steps. (default: 3)
+  --debug               Enable detailed script debug logging. (default: False)
+  --langchain-debug     Enable LangChain global debug logging (prompts/responses - verbose!). (default: False)
 
 ## Usage
 
