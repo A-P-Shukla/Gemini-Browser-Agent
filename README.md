@@ -119,9 +119,9 @@ options:
 ```
 ## Usage
 
-Run the script (assuming it's named `gemini_browser.py`) from your activated virtual environment.
+Run the script ( `gemini_browser.py`) from your activated virtual environment.
 
 **Interactive Mode (Default):**
 
 ```bash
-python gemini_browser.py [OPTIONS]
+python gemini_browser.py
