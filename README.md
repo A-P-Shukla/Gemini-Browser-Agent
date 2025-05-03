@@ -116,7 +116,7 @@ options:
                         Run planner every N steps. (default: 3)
   --debug               Enable detailed script debug logging. (default: False)
   --langchain-debug     Enable LangChain global debug logging (prompts/responses - verbose!). (default: False)
-
+```
 ## Usage
 
 Run the script (assuming it's named `gemini_browser.py`) from your activated virtual environment.
