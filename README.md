@@ -97,7 +97,7 @@ options:
   -h, --help            show this help message and exit
   --query QUERY         Run a single query and exit. (default: None)
   --url URL             Starting URL. If not provided, defaults to https://www.google.com for the first query. (default: None)
-  --model MODEL         Gemini model for main tasks. (default: gemini-1.5-flash-latest)
+  --model MODEL         Gemini model for main tasks. (default: gemini-2.5-flash-preview-04-17)
   --planner-model PLANNER_MODEL
                         Gemini model for planning (defaults to main model). (default: None)
   --headless            Run browser in headless mode. (default: False)
