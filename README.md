@@ -55,16 +55,8 @@ The agent features enhanced prompting, configurability for downloads and recordi
     # Linux / macOS
     # source .venv/bin/activate
     ```
-3.  **Install Dependencies:** Create a `requirements.txt` file with the following content:
-    ```txt
-    python-dotenv
-    pydantic
-    langchain-google-genai
-    browser-use
-    playwright
-    langchain
-    ```
-    Then install using pip:
+3.  **Install Dependencies:** 
+    TInstall using pip:
     ```bash
     pip install -r requirements.txt
     ```
