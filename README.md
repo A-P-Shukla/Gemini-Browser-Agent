@@ -49,11 +49,11 @@ The agent features enhanced prompting, configurability for downloads and recordi
 
     # Activate the environment:
     # Windows (Command Prompt)
-    # .venv\Scripts\activate.bat
+    .venv\Scripts\activate.bat
     # Windows (PowerShell) - May require Set-ExecutionPolicy RemoteSigned -Scope Process first
-    # .\.venv\Scripts\Activate.ps1
+    .\.venv\Scripts\Activate.ps1
     # Linux / macOS
-    # source .venv/bin/activate
+    source .venv/bin/activate
     ```
 3.  **Install Dependencies:** 
     TInstall using pip:
