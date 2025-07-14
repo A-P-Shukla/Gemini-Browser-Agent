@@ -38,7 +38,7 @@ The agent features enhanced prompting, configurability for downloads and recordi
 
 ## Installation
 
-1.  **Clone or download the script.** (Assuming the script file is named `gemini_browser.py`).
+1.  **Clone or download the script.**
 2.  **Create and Activate a Virtual Environment (Recommended):**
     ```bash
     # Navigate to the script directory
