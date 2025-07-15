@@ -8,7 +8,7 @@ The agent features enhanced prompting, configurability for downloads and recordi
 
 Here is a quick demonstration of the Gemini Browser Agent in action.
 
-![Gemini Browser Agent Demo](./demo.mp4)
+![Gemini Browser Agent Demo](./demo.gif)
 
 ## Features
 
