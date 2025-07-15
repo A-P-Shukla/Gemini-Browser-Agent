@@ -4,6 +4,11 @@ This script implements an AI agent powered by Google's Gemini models, designed t
 
 The agent features enhanced prompting, configurability for downloads and recordings, debug logging options, and support for LangSmith tracing.
 
+## Demo
+
+Here is a quick demonstration of the Gemini Browser Agent in action.
+![Gemini Browser Agent Demo](./demo.mp4)
+
 ## Features
 
 *   **Web Interaction:** Controls a headless or headed browser (via Playwright) to perform tasks.
