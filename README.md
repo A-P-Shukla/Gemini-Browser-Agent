@@ -7,7 +7,7 @@ The agent features enhanced prompting, configurability for downloads and recordi
 ## Features
 
 *   **Web Interaction:** Controls a headless or headed browser (via Playwright) to perform tasks.
-*   **Gemini Powered:** Uses Google's Gemini models (configurable, defaults to `gemini-1.5-flash-latest`) for understanding queries and planning actions.
+*   **Gemini Powered:** Uses Google's Gemini models (configurable, defaults to `gemini-2.5-flash-latest`) for understanding queries and planning actions.
 *   **Modes of Operation:**
     *   **Interactive Mode:** Allows for multiple queries within a single session.
     *   **Single Query Mode:** Executes one query provided via command-line and exits.
